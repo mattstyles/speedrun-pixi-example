@@ -1,15 +1,28 @@
 {
   "name": "speedrun-pixi-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example repository using speedrun to start a pixi.js powered demo project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "speedrun index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pixi",
+    "pixi.js",
+    "speedrun",
+    "demo",
+    "example"
+  ],
+  "author": "Matt Styles",
   "license": "ISC",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/**",
+      "**/lib/"
+    ]
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "speedrun": "^1.0.0",
