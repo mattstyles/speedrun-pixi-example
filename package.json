@@ -1,0 +1,21 @@
+{
+  "name": "speedrun-pixi-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "speedrun index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "speedrun": "^1.0.0",
+    "standard": "^14.1.0"
+  },
+  "dependencies": {
+    "pixi.js": "^5.1.2"
+  }
+}
