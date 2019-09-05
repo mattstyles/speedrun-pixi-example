@@ -1,6 +1,6 @@
 
 /**
- *
+ * This file uses ES6 modules to gain access to pixi.
  */
 
 import { utils } from 'pixi.js'
